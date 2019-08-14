@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="DeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeviceName_TextView" />
+
+    <TextView
+        android:text="DeviceAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeviceAddress_TextView" />
+
+    <TextView
+        android:text="Rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rssi_TextView"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:text="Temperature"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Temp_TextView" />
+
+</LinearLayout>
